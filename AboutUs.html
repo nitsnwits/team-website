@@ -42,44 +42,43 @@
         var x = new Date();
         var myCountdown1 = new Countdown({time:x.getSeconds()});
     </script>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand" rel="home" href="#" title="">
-            <img style="height: 50px; width: 80px; margin-top: -15px;" src="./images/logo2.jpg">
-            </a>
+    
+<!-- Bootstrap navbar template: --> 
+    <div class="navbar-wrapper">  
+      <div class="container">
+        <nav class="navbar navbar-default navbar-static-top">
+          <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="./Home.html">Home</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" rel="home" href="#" title="Buy Sell Rent Everyting">
+                  <img style="height: 50px; width: 80px; margin-top: -15px;"
+                       src="./images/logo.jpg">
+              </a>              
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="NAVBAR-HEADER" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="./BigData.html">Big Data</a>
-                    </li>
-                    <li>
-                        <a href="./Iot.html">IoT</a>
-                    </li>
-                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="./Products.html">Products</a></li>
+                <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="./Locations.html">Location</a></li>
                                 <li><a href="#ourTeam">Our Team</a></li>
                             </ul>
                     </li>
-                </ul>
+              </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+          </div>
+        </nav>
+
+      </div>
+    </div>    
+<!-- Bootstrap navbar finish -->
+
 
     <!-- Page Content -->
     <div class="container">
@@ -147,7 +146,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <p style="margin-left:45%; position: absolute; top: 45px"> Looks like I don't have much to say about myself right now, but I assure you I'm very interesting!
-                    Check back later and I'll give you more details.</p><img src="C:/Users/Ashley/Documents/Programming/team-website/images/HeadphonesGirl2.jpg" class="img-responsive">
+                    Check back later and I'll give you more details.</p><img src="images/HeadphonesGirl2.jpg" class="img-responsive">
                 </div>
             </div>
           </div>
@@ -157,7 +156,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <p style="margin-left:45%; position: absolute; top: 45px"> Looks like I don't have much to say about myself right now, but I assure you I'm very interesting!
-                    Check back later and I'll give you more details.</p><img src="C:/Users/Ashley/Documents/Programming/team-website/images/HeadphonesGirl.jpg" class="img-responsive">
+                    Check back later and I'll give you more details.</p><img src="images/HeadphonesGirl.jpg" class="img-responsive">
                 </div>
             </div>
           </div>
@@ -167,7 +166,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <p style="margin-left:45%; position: absolute; top: 45px"> Looks like I don't have much to say about myself right now, but I assure you I'm very interesting!
-                    Check back later and I'll give you more details.</p><img src="C:/Users/Ashley/Documents/Programming/team-website/images/HeadphonesGuy.jpg" class="img-responsive">
+                    Check back later and I'll give you more details.</p><img src="images/HeadphonesGuy.jpg" class="img-responsive">
                 </div>
             </div>
           </div>
@@ -187,7 +186,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <p style="margin-left:45%; position: absolute; top: 45px"> Looks like I don't have much to say about myself right now, but I assure you I'm very interesting!
-                    Check back later and I'll give you more details.</p><img src="C:/Users/Ashley/Documents/Programming/team-website/images/HeadphonesGirl3.jpg" class="img-responsive">
+                    Check back later and I'll give you more details.</p><img src="images/HeadphonesGirl3.jpg" class="img-responsive">
                 </div>
             </div>
           </div>
