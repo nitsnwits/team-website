@@ -222,6 +222,21 @@
                     </div>
                   </div>
                 </div>
+                <!--PopUp Modal -->
+                <div class="modal fade" id="myModalDownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Download White Paper</h4>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://drive.google.com/file/d/0B_lG3-6_13PLamw3WkFidzQxTzg/view?usp=sharing">Download Now!</a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
     <!-- FOOTER -->
     <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -250,8 +265,9 @@ $(document).ready(function(){
     //.serialize() requires name attr in form tag
     var usrInfoEncoded = encodeURIComponent(form.serialize().replace("%40","@")); 
     console.log(usrInfoEncoded);
-
+        $("#myModal").modal("hide");
       alert(decodeURIComponent(usrInfoEncoded));
+      $("#myModalDownload").modal("show");
     });
 
 });
